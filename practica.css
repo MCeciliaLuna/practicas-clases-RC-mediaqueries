@@ -1,0 +1,53 @@
+section{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 300px;
+    width: 200px;
+}
+
+.box1{
+    background-color: crimson ;
+}
+
+.box2{
+    background-color: palevioletred ;
+}
+
+.box3{
+    background-color: yellowgreen ;
+}
+
+.box4{
+    background-color: royalblue ;
+}
+
+@media (max-width: 414px){
+    .box{
+        width: 99%;
+    }
+    body{
+        background-color: black;
+    }
+}
+
+@media(min-width: 415px) and (max-width: 1024px){
+    .box{
+        width: 48%;
+    }
+    body{
+        background-color:whitesmoke;
+    }
+}
+
+@media (min-width: 1024px){
+    .box{
+        width: 25%;
+    }
+    body{
+        background-color: black;
+    }
+}

@@ -1,0 +1,22 @@
+body{
+  background-color: chartreuse;
+}
+
+@media (max-width: 414px){
+    body{
+        background-color: chocolate;
+    }
+    .media-pc{
+    display: none;
+    }
+    .media-tablet{
+    display: none;
+    }
+}
+
+@media (min-width: 415px) and (max-width:1024px){
+    body{
+        background-color: red;
+    }
+}
+

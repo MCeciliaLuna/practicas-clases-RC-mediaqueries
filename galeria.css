@@ -1,0 +1,27 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 200px;
+    background-color: salmon;
+}
+
+@media (max-width: 414px){
+    .box{
+        width: 99%;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 1024px){
+    .box{
+        width: 48%;
+    }
+}
+
+@media (min-width: 1025px){
+    .box{
+       width: 24%; 
+    }
+}
